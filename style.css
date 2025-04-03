@@ -5,9 +5,9 @@ html {
   line-height: 140%;
   margin:0;
   padding:0;
-  background:#696969;
+  background:#000000;
   text-align:center;
-  color:#FFFFFF;
+  tex-color:#FFFFFF;
 
   min-height: 100%;
   margin-bottom: 1px;  
@@ -22,13 +22,13 @@ a {
 }
 
 #wrap {
-  background:#FFFFFF;
+  background:#000000;
   margin:0 auto;
   width:960px;
 }
 
 #header {
-  background:#696969;
+  background:#000000;
   float:left;
   text-align:left;
   font-size: 30px;
