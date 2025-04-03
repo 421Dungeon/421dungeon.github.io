@@ -5,9 +5,9 @@ html {
   line-height: 140%;
   margin:0;
   padding:0;
-  background:#000000;
+  background:#000;
   text-align:center;
-  text-color:#FFFFFF;
+  color:#FFF;
 
   min-height: 100%;
   margin-bottom: 1px;  
@@ -18,11 +18,11 @@ body {
 }
 
 a {
-  color: #FFFFFF;
+  color: #050580;
 }
 
 #wrap {
-  background:#000000;
+  background:#000;
   margin:0 auto;
   width:960px;
 }
@@ -36,12 +36,12 @@ a {
 }
 
 #header a {
-  color:#FFFFFF;
+  color:#B9B9B9;
   text-decoration:none;
 }
 
 #main {
-  background:#000000;
+  background:#242424;
   margin: 10px 10px 10px 10px;
   float:left;
   text-align:left;
@@ -59,4 +59,4 @@ a {
 
 .code { 
   font-family: courier, courier new, monospace;
-} 
+}
