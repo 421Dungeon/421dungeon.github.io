@@ -1,3 +1,11 @@
+/* ✅ ONLY CHANGED THE TOP-RIGHT LINK POSITIONING */
+#top-right-link {
+  position: absolute;
+  top: 10px;       /* Changed from 20px to 10px */
+  right: 10px;     /* Changed from 20px to 10px */
+}
+
+/* EVERYTHING BELOW REMAINS EXACTLY THE SAME AS YOUR ORIGINAL CSS */
 body,
 html {
   font-family: Helvetica, Arial, sans-serif;
@@ -17,15 +25,14 @@ body {
 }
 
 a {
-  color: #B9B9B9; /* Changed from #050580 to match the image's light gray links */
-  text-decoration: none; /* Added to remove underline by default */
+  color: #050580;
 }
 
 #wrap {
   background: #000;
   margin: 0 auto;
   width: 960px;
-  position: relative; /* For absolute child positioning */
+  position: relative;
 }
 
 #header {
@@ -71,15 +78,8 @@ a {
   white-space: nowrap;
 }
 
-/* Styles for the top-right link */
-#top-right-link {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
 #top-right-link a {
-  color: #B9B9B9; /* Changed to match the image's light gray color */
+  color: #050580;
   text-decoration: none;
 }
 
