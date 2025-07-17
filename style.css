@@ -101,11 +101,3 @@ a {
   font-size: 0.9em;
   color: #ccc;
 }
-
-.project-box img {
-  width: 128px;
-  height: 128px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
