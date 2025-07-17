@@ -3,7 +3,7 @@
   position: absolute;
   top: 20px;               /* Matches main box top position */
   right: 20px;             /* Matches main box right position */
-  font-size: 16px;         /* Slightly larger than default 14px */
+  font-size: 32px;         /* Slightly larger than default 14px */
   line-height: 30px;       /* Matches header height */
 }
 
