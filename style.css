@@ -17,14 +17,15 @@ body {
 }
 
 a {
-  color: #050580;
+  color: #B9B9B9; /* Changed from #050580 to match the image's light gray links */
+  text-decoration: none; /* Added to remove underline by default */
 }
 
 #wrap {
   background: #000;
   margin: 0 auto;
   width: 960px;
-  position: relative;
+  position: relative; /* For absolute child positioning */
 }
 
 #header {
@@ -70,17 +71,15 @@ a {
   white-space: nowrap;
 }
 
-/* Updated styles for the top-right link to match image */
+/* Styles for the top-right link */
 #top-right-link {
   position: absolute;
-  top: 25px;
+  top: 20px;
   right: 20px;
-  font-size: 16px;
-  font-weight: bold;
 }
 
 #top-right-link a {
-  color: #050580;
+  color: #B9B9B9; /* Changed to match the image's light gray color */
   text-decoration: none;
 }
 
