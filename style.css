@@ -51,7 +51,14 @@ a {
 
 #main {
   padding:0 10px;
+  flex: 1;
 }
+
+#main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 
 #main pre {
   font-size: 12px;
@@ -60,3 +67,8 @@ a {
 .code { 
   font-family: courier, courier new, monospace;
 }
+
+.right-link {
+    margin-left: 20px;
+    white-space: nowrap;
+  }
