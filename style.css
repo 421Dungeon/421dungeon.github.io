@@ -3,18 +3,17 @@ html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 140%;
-  margin:0;
-  padding:0;
-  background:#000;
-  text-align:center;
-  color:#FFF;
-
+  margin: 0;
+  padding: 0;
+  background: #000;
+  text-align: center;
+  color: #FFF;
   min-height: 100%;
-  margin-bottom: 1px;  
+  margin-bottom: 1px;
 }
 
 body {
-  min-width:960px;
+  min-width: 960px;
 }
 
 a {
@@ -22,53 +21,67 @@ a {
 }
 
 #wrap {
-  background:#000;
-  margin:0 auto;
-  width:960px;
+  background: #000;
+  margin: 0 auto;
+  width: 960px;
+  position: relative; /* ✳️ Added to allow absolute child positioning */
 }
 
 #header {
-  background:#000000;
-  float:left;
-  text-align:left;
+  background: #000000;
+  float: left;
+  text-align: left;
   font-size: 30px;
-  margin:10px;
+  margin: 10px;
 }
 
 #header a {
-  color:#B9B9B9;
-  text-decoration:none;
+  color: #B9B9B9;
+  text-decoration: none;
 }
 
 #main {
-  background:#242424;
-  margin: 10px 10px 10px 10px;
-  float:left;
-  text-align:left;
-  width:720px;
-  min-height:480px;
-}
-
-#main {
-  padding:0 10px;
+  background: #242424;
+  margin: 10px;
+  float: left;
+  text-align: left;
+  width: 720px;
+  min-height: 480px;
+  padding: 0 10px;
   flex: 1;
 }
-
-#main-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
 
 #main pre {
   font-size: 12px;
 }
 
-.code { 
+.code {
   font-family: courier, courier new, monospace;
 }
 
+#main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .right-link {
-    margin-left: 20px;
-    white-space: nowrap;
-  }
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+/* ✅ NEW: styles for the top-right link */
+#top-right-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#top-right-link a {
+  color: #050580;
+  text-decoration: none;
+}
+
+#top-right-link a:hover {
+  text-decoration: underline;
+}
