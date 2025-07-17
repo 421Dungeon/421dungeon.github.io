@@ -1,11 +1,13 @@
-/* ✅ ONLY CHANGED THE TOP-RIGHT LINK POSITIONING */
+/* ONLY CHANGED THESE PROPERTIES FOR THE TOP-RIGHT LINK */
 #top-right-link {
   position: absolute;
-  top: 10px;       /* Changed from 20px to 10px */
-  right: 10px;     /* Changed from 20px to 10px */
+  top: 20px;               /* Matches main box top position */
+  right: 20px;             /* Matches main box right position */
+  font-size: 16px;         /* Slightly larger than default 14px */
+  line-height: 30px;       /* Matches header height */
 }
 
-/* EVERYTHING BELOW REMAINS EXACTLY THE SAME AS YOUR ORIGINAL CSS */
+/* EVERYTHING BELOW REMAINS EXACTLY THE SAME */
 body,
 html {
   font-family: Helvetica, Arial, sans-serif;
