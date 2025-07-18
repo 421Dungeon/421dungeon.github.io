@@ -1,4 +1,4 @@
-#top-right-link {
+#3d_engine {
   position: absolute;
   right: 20px;
   font-size: 18px;
@@ -78,11 +78,11 @@ a {
   white-space: nowrap;
 }
 
-#top-right-link a {
+#3d_engine a {
   color: #050580;
   text-decoration: none;
 }
 
-#top-right-link a:hover {
+#3d_engine a:hover {
   text-decoration: underline;
 }
