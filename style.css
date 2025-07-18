@@ -1,13 +1,13 @@
 /* ONLY CHANGED THESE PROPERTIES FOR THE TOP-RIGHT LINK */
 #top-right-link {
   position: absolute;
-  top: 20px;               /* Matches main box top position */
-  right: 20px;             /* Matches main box right position */
-  font-size: 32px;         /* Slightly larger than default 14px */
-  line-height: 30px;       /* Matches header height */
+  top: 20px;
+  right: 20px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
-/* EVERYTHING BELOW REMAINS EXACTLY THE SAME */
+
 body,
 html {
   font-family: Helvetica, Arial, sans-serif;
