@@ -1,15 +1,9 @@
 #3d_engine {
   font-size: 18px;
-  line-height: 30px;
-  margin: 10px 0;
-  text-align: right;
 }
 
 #PicoVGA {
   font-size: 18px;
-  line-height: 30px;
-  margin: 10px 0;
-  text-align: right;
 }
 
 
@@ -91,5 +85,14 @@ a {
 }
 
 #3d_engine a:hover {
+  text-decoration: underline;
+}
+
+#PicoVGA a {
+  color: #050580;
+  text-decoration: none;
+}
+
+#PicoVGA a:hover {
   text-decoration: underline;
 }
