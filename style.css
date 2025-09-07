@@ -20,11 +20,6 @@ body {
   min-width: 960px;
 }
 
-a {
-  color: #050580;
-  text-decoration: none;
-}
-
 #wrap {
   background: #000;
   margin: 0 auto;
