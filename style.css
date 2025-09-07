@@ -5,6 +5,13 @@
   text-align: right;
 }
 
+#PicoVGA {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 10px 0;
+  text-align: right;
+}
+
 
 body,
 html {
