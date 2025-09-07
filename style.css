@@ -16,6 +16,10 @@ a {
   color: #050580;
 }
 
+.right-link { 
+  margin-left: 20px; white-space: nowrap; 
+}
+
 body {
   min-width: 960px;
 }
