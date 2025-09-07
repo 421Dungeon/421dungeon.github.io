@@ -20,6 +20,11 @@ body {
   min-width: 960px;
 }
 
+a {
+  color: #050580;
+  text-decoration: none;
+}
+
 #wrap {
   background: #000;
   margin: 0 auto;
@@ -66,7 +71,7 @@ body {
 }
 
 #link {
-  color: #050580;
+  color: #0000EE;
   text-decoration: none;
   font-size: 18px;
 }
