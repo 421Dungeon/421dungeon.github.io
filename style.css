@@ -1,9 +1,8 @@
 #3d_engine {
-  position: absolute;
-  right: 20px;
-  top: 20px;
   font-size: 18px;
   line-height: 30px;
+  margin: 10px 0;
+  text-align: right;
 }
 
 
