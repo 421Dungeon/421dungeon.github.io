@@ -1,0 +1,29 @@
+body,
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  text-align: center;
+  color: #FFF;
+  min-height: 100%;
+  margin-bottom: 1px;
+}
+
+body {
+  min-width: 960px;
+}
+
+a {
+  color: #050580;
+}
+
+.code {
+  font-family: courier, courier new, monospace;
+}
+
+a:hover {
+  text-decoration: underline;
+}
