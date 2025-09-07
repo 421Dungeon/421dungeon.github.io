@@ -12,6 +12,10 @@ html {
   margin-bottom: 1px;
 }
 
+a {
+  color: #050580;
+}
+
 body {
   min-width: 960px;
 }
@@ -56,7 +60,7 @@ body {
   align-items: flex-start;
 }
 
-a {
+#link {
   color: #050580;
   text-decoration: none;
   font-size: 18px;
