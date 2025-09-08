@@ -27,3 +27,10 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+#home a {
+  color: #B9B9B9; 
+  text-decoration: none;
+  text-align: left;
+  font-size: 30px;
+}
