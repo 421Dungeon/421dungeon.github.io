@@ -58,3 +58,11 @@ a {
   font-family: courier, courier new, monospace;
 } 
 
+.socials {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
